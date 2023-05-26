@@ -6,3 +6,4 @@ This is my first website which was created using HTML and CSS.This page will sho
 * CSS 
 
 ## Screen Shot
+<img src="https://github.com/dhamodharan25/First-Webpage/blob/main/image.png">
