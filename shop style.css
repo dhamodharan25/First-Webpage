@@ -1,0 +1,25 @@
+.heading{
+    background-color:rgb(6, 2, 248);
+    font-size: 30px;
+    font-weight: px;
+    padding: 20px;
+    text-align: center;
+}
+.heading .one{
+    color:#ffe500 
+}
+
+.shop__detials{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+.shop__detials .lab{
+    color: lightgreen
+    
+}
+

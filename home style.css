@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero_section{
+    background: url(./images/img2.jpg); 
+    background-size:auto;
+   
+   min-height: 60wh;
+   max-height: 100wh;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_menu{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar_menu a{
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+}
+
+.hero_body{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.choice a{
+    align-content: center;
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    
+
+}
+
+.choice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.con{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    background-color: cyan ;
+}
+
+
+.con2{
+    text-align: left;
+    font-size: 40px;
+    background-color: red;
+    color: black;
+}
+.container_shop{
+    margin: 3rem auto;
+    width: auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    color: cornflowerblue;
+}
+
+.serbut{
+    text-align: center;
+    }
+
+ 
+
+    
+
+
+.card1{
+    border-radius: 15px;
+    color:black;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+.card1 img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.card1 h2{
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card1:hover{
+   transform: scale(1.1); 
+}
+
+
+.card2{
+    border-radius: 15px;
+    color:black;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+.card2 img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.card2 h2{
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+}
+.card2:hover{
+    transform: scale(1.1);
+} 
+
+
+.card3{
+    border-radius: 15px;
+    color:black;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card3 img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.card3 h2{
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+}
+.card3:hover{
+    transform: scale(1.1); 
+}
